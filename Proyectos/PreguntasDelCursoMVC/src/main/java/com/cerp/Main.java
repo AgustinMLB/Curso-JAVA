@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cerp.Controlador.InicioControlador;
+
 import com.cerp.Modelo.Pregunta;
 import com.cerp.Vista.InicioVista;
 
@@ -32,7 +33,9 @@ public class Main {
     public static void main(String[] args) {
         
         // Crear instancia de FileHandler para cargar las preguntas desde preguntas.data
-        FileHandler<Pregunta> fileHandler = new FileHandler<Pregunta>("D:\\_VSCode\\_Programacion3-JAVA\\Curso-JAVA\\Proyectos\\PreguntasDelCursoMVC\\preguntas.data");
+        //FileHandler<Pregunta> fileHandler = new FileHandler<Pregunta>("D:\\_VSCode\\_Programacion3-JAVA\\Curso-JAVA\\Proyectos\\PreguntasDelCursoMVC\\preguntas.data");
+        FileHandler<Pregunta> fileHandler = new FileHandler<Pregunta>("D:\\_VSCode\\_Programacion2-JAVA\\Proyectos\\PreguntasDelCursoMVC\\src\\main\\resources\\preguntas.data");
+
 
         List<Pregunta> modelo = new ArrayList<>();        
 

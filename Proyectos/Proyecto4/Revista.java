@@ -1,4 +1,3 @@
-package Proyectos.Proyecto4;
 
 /**
  * @file Revista.java

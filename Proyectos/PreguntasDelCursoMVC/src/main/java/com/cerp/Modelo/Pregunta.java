@@ -24,13 +24,7 @@ package com.cerp.Modelo;
         this.opciones = opciones;
     }
 
-    /**
-     * Constructor para la clase pregunta.
-     * @param idPregunta int que representa el numero de pregunta
-     * @param pregunta String que representa la pregunta.
-     * @param opciones String[] que contiene las opciones posibles.
-     * @param answerIndex int que representa el índice de la respuesta correcta en el arreglo opciones.
-     */
+
     public Pregunta(int idPregunta, String pregunta, String correcta, String[] opciones) {
         this.idPregunta = idPregunta;
         this.pregunta = pregunta;

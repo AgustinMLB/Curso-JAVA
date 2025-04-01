@@ -32,12 +32,6 @@ public class AdminVista extends JFrame {
 
     private InicioVista parentWindow;
 
-    /**
-     * Constructor de la clase AdminVista.
-     * 
-     * @param modelo la lista de preguntas existente.
-     * @param parentWindow el objeto InicioVista que se utilizará como ventana padre.
-     */
     public AdminVista(InicioVista parentWindow) {
         this.parentWindow = parentWindow; // Asignar el objeto recibido al atributo parentWindow
 

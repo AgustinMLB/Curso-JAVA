@@ -1,4 +1,3 @@
-package Proyectos.Proyecto4;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,7 @@ import java.util.Map;
 
 public class Biblioteca {
     // Lista de materiales bibliográficos
-    //private List<MaterialBibliografico> materiales;
+    //private List<MaterialBibliografico> listaMateriales;
     private Hashtable<String, MaterialesBibliograficos> materiales;
 
     public Hashtable<String, MaterialesBibliograficos> getMateriales() {
@@ -43,11 +42,11 @@ public class Biblioteca {
     // Si la lista no existe, crea una nueva
     if (aux== null) {
         
-        materiales.put(genero, listaMateriales);
+        materiales.put(genero, aux);
     }
 
     // Agrega el material a la lista
-    listaMateriales.add(material);
+    aux.agregarMaterial(material);
         
         //materiales.add(material);
         //materiales.put(genero, material); // no utilizar put porque reemplaza el valor anterior, solo si deseo cargar 1 MatBib por Genero
