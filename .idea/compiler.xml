@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="PreguntasDelCurso" />
-        <module name="pooshowcase" />
+        <module name="PreguntasDelCursoBD" />
         <module name="PreguntasDelCursoMVC (1)" />
-        <module name="PreguntasDelCursoMVC" />
         <module name="contador-clicks" />
         <module name="preguntasMVC" />
+        <module name="pooshowcase" />
+        <module name="PreguntasDelCursoMVC" />
       </profile>
     </annotationProcessing>
   </component>
